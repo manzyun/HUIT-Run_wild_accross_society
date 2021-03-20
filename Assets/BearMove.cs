@@ -65,6 +65,7 @@ public class BearMove : MonoBehaviour
         }else if(Input.GetKey(KeyCode.LeftArrow)){
             this.rb.velocity = this.leftMove;
         }
+
     }
         // ジャンプ
 
