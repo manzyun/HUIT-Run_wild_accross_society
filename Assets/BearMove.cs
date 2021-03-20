@@ -30,6 +30,9 @@ public class BearMove : MonoBehaviour
         // ゴール位置設定
         this.goalPos = new Vector3(100.0f, 0.0f, 0.0f);
 
+        // ゴールはゲームオブジェクトの方で設定する
+
+
         // クマの移動速度を設定
         this.bearSpeed = new Vector3(5.0f, 0.0f, 0.0f);
 
